@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body> 
+	<div class="example1">
+		<p class="font"> TANYA KAUFMAN </p> 
+	</div>
+
+
+	<div class="vl">
+	</div>
+
+	<div class="vl">
+	</div>
+
+
+	<div class="main-div">
+		<div class="boxed"> 	
+			<ul>
+				<li><div style="background-color:white;width:50px;">
+					<p style="border:3px;width:140px;border-style:solid;padding:1em;"> 
+						<a href="index2.html"> Home </a> 
+					</p>
+				</li> 
+				<li><div style="background-color:white;width:50px">
+					<p style="border:3px;width:150px;border-style:solid;padding:1em;">
+						<a href="About Me.html"> About Me </a> 
+					</p>
+				</li>
+				<li><div style="background-color:white;width:50px">
+					<p style="border:3px;width:160px;border-style:solid;padding:1em;">
+						<a href="portfolio.html"> Portfolio </a> 
+					</p>
+				</li>
+				<li><div style="background-color:white;width:50px">
+					<p style="border:3px;width:170px;border-style:solid;padding:1em;">
+						<a href="services.html"> Services </a> 
+					</p>
+				</li>
+				<li><div style="background-color:white;width:50px">
+					<p style="border:3px;width:180px;border-style:solid;padding:1em;">
+						<a href="testimonials.html"> Book Reviews </a> 
+					</p>
+				</li>
+			</ul> 
+
+		</div>
+	</li>
+</div>
+
+
+<div class="vl"></div>
+
+		<div class="left-div">
+		<p>
+		</p> 
+		<div class="top-right-div">
+		</div> 
+		<div class="lower-right-div">
+		</div>
+
+<h1> PORTFOLIO </h1>
+	
+</head>
+<body>
+
+<p2> GRAPHIC DESIGN PORTFOLIO </p2> 
+
+<space> 
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="portfolio">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="portfolio/disk.png" style="width:100%" left="300">
+    <div class="text">Caption Text</div>
+  </div>
+  </div> 
+	
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="mural.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="Narrative Spread 11.jpg" style="width:100%" text-align="center">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="micro2.jpg" style="width:100%">
+  </div>
+
+	<div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="Menu2.jpg" style="width:100%">
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</head>
+</html> 

@@ -1,0 +1,542 @@
+.index{ 
+	height:50px;
+	width:40px;
+	}
+body {
+ text-align:center;
+ width:25%;
+ font-family:helvetica;
+ background-color:#990440;
+}
+.boxed {
+  border-style:dotted; 
+  height:550px;
+  border:#000000;
+  background:#cfe2e2; 
+  padding-top:20px;
+  margin:5px;
+  margin-right:5px;
+  margin-top:10px;
+  width:300px; 
+  margin-left:-6px; 
+  position: absolute;
+  z-index:2; 
+}
+font{
+	font-size:45px;
+	font-family:Garamond;
+	background:purple;
+	}
+p{ color: white;
+	margin:25px;
+	margin-top:20px;
+	margin-right:100px;
+	z-index:4;
+	}
+p2{	text-indent:30px; 
+	float:left; 
+	color: white;
+	margin:175px;
+	margin-top:80px;
+	margin-right:280px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	clear:right;
+	text-align:left;
+	}
+p3{	text-indent:30px; 
+	color: white;
+	margin:175px;
+	margin-top:193px;
+	margin-right:280px;
+	z-index:4; 
+	clear:right;
+	line-height:22px; 
+	text-align:left;
+	position:absolute; 
+	}
+p4{	text-indent:30px; 
+	color: white;
+	margin:175px;
+	margin-top:395px;
+	margin-right:280px;
+	z-index:4; 
+	clear:right;
+	line-height:22px; 
+	text-align:left;
+	position:absolute; 
+	}
+p5{	text-indent:30px; 
+	color: white;
+	margin:175px;
+	margin-top:530px;
+	margin-right:280px;
+	z-index:4; 
+	clear:right;
+	line-height:22px; 
+	text-align:left;
+	position:absolute; 
+	}
+p6{	text-indent:30px; 
+	color: white;
+	margin:475px;
+	margin-top:160px;
+	z-index:4; 
+	text-align:center;
+	line-height:22px; 
+	position:absolute; 
+	}
+p7{	text-indent:30px; 
+	color: white;
+	margin:365px;
+	margin-left:440px;
+	margin-top:280px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	}
+p8{	text-indent:30px; 
+	color: white;
+	margin:150px;
+	margin-top:310px;
+	margin-left:280px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	}
+p9{	text-indent:30px; 
+	color: white;
+	margin:475px;
+	margin-top:380px;
+	margin-left:480px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute;
+	}
+p10{ 
+	float:left; 
+	color: white;
+	margin:80px;
+	margin-top:80px;
+	margin-left:580px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	}
+p11{text-indent:30px; 
+	color: white;
+	margin:330px;
+	margin-top:115px;
+	margin-left:720px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute;
+	}
+p12{	text-indent:30px; 
+	float:left; 
+	color: white;
+	margin:175px;
+	margin-top:80px;
+	margin-left:280px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	text-align:center;
+	}
+p13{	text-indent:30px; 
+	float:left; 
+	color: white;
+	margin:170px;
+	margin-top:190px;
+	margin-left:280px;
+	z-index:4; 
+	line-height:22px; 
+	position:absolute; 
+	text-align:center;
+	}
+h1
+{
+ color:black;
+ margin-top:10px;
+ font-size:45px;
+ left:765px;
+ position:absolute; 
+ z-index:4;
+}
+
+.tanya{
+	padding-top: 200px; 
+	background-repeat: no-repeat;
+	background-size: 460px 691px; 
+	margin-left:1000px;
+	z-index:4; 
+	left:30px; 
+	top:60px; 
+	display:block;
+	float:right;
+	position:fixed; 
+	word-wrap:break-word;
+	transform:rotate(-90deg)
+	}
+	
+.example1 {
+ height: 0px;	
+ overflow: hidden;
+ position: relative;
+ font-size: 1em;
+ color: white;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 20s linear infinite;
+ -webkit-animation: example1 20s linear infinite;
+ animation: example1 20s linear infinite;
+ z-index:4; 
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+background-image{
+	margin-right: 100px; 
+	background: url(head.jpeg)
+	background-repeat: no-repeat;
+	background-size: 1000px 600px; 
+	margin-left:350px;
+	background-color:#777777;  
+	border-style:dotted;
+	z-index:1; 
+	position:relative;
+	left:30px; 
+	top:0; 
+	}
+
+.vl {
+  border-left: 6px solid red;
+  position: absolute;
+  left: 25%;
+  margin-left:-40px;
+  float:left;
+  z-index:3;
+  top:0px; 
+}
+
+a:hover{
+	background:#Ccc0F1;
+	padding-right:10px;
+	padding-right:50px;
+	padding-right:100px;
+	width:50px;
+	}
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 30px;
+  width: 60px;
+} 
+
+li a {
+  display: block;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 688px;
+}
+	
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  margin-top:120px;
+  position: absolute;
+  margin-left:350px;
+  z-index: 4; 
+  float:right; 	
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: block;
+  float:right;
+   margin-left:100px;
+  position:relative;
+  text-align:center; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  width: 100px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.portfolio{
+	margin-left:
+	float:right;
+	}
+	
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container2 {
+  /*max-width: 1000px;*/
+  margin-top:120px;
+  position: absolute;
+  margin-left:330px;
+  z-index: 4; 	
+}
+
+/* Hide the images by default */
+.mySlides2 {
+  display: block;
+  float:right;
+   margin-left:350px;
+   margin-top:310px;
+   z-index:4;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  width: 100px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+div#main{
+width:830px;
+height:650px;
+margin-left: 100px;
+font-family:'Ubuntu',sans-serif
+}
+div#form_sample{
+width:400px;
+padding:0 50px 15px;
+margin-top: 140px;
+border-radius:6px;
+float:left;
+margin-left:680px;
+}
+#main h1{
+margin-top:40px
+margin-left:0px;
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+margin-left:0px;
+font-size:16px
+}
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+margin-left:0px;
+padding:10px;
+}
+textarea{
+width:100%;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+margin-left:0px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color:#ccc2e2;
+border:none;
+color:#000000;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+margin-left:0px;
+font-family:'Ubuntu',sans-serif
+}
+
+</style>
+</body>
+</html>
